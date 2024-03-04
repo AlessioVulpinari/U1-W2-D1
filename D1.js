@@ -44,9 +44,9 @@ console.log("myName è stato inizializzato con il valore: " + myName)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const Number1 = 12
-const Number2 = 20
-const total = Number1 + Number2
+const number1 = 12
+const number2 = 20
+const total = number1 + number2
 
 console.log(total)
 
@@ -101,6 +101,7 @@ let name2 = "John"
 // nome 1 è diverso da nome 2 perciò questa comparazione risulterà vera
 console.log(name1 !== name2)
 
-// utilizziamo il metodo toLowerCase che "trasforma" tutti i caratteri di name2 in minuscolo
+// utilizziamo il metodo toLowerCase() che normalizza tutti i caratteri di name2 in minuscolo
 // ora mettendoli a confronto le due variabili risultano identiche
+
 console.log(name1 === name2.toLowerCase())
